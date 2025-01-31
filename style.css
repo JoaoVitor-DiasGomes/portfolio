@@ -1,0 +1,170 @@
+
+body {
+
+margin: auto;
+
+height: 100%;
+background-color: #0d0d0d;
+font-family: Arial, Helvetica, sans-serif;
+color: #848494;
+
+}
+
+h1,h2{
+
+    color: #0062ff;
+    place-items: center;
+    text-align: center;
+}
+
+
+.container {
+border-bottom: 1px solid #252525;
+width: auto;
+}
+
+.img {
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(profile.jpeg);
+    width: 150px;
+    height: 175px;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 1) 10px 10px 18px;
+
+}
+
+a {
+    text-decoration: none;
+}
+p {
+    font-size: x-large;
+    width: 50%;
+}
+.about, .experience, .abilities, .projects, .contacts {
+
+    display: grid;
+    place-items: center;
+    text-align: center;
+    gap: 8px;
+
+}
+
+
+button {
+    
+    border-radius: 3.5px;
+    border: 0px;
+    width: 100px;
+    padding: 25px;
+    font-size: medium;
+    background-color: #252525;
+    color: #0062ff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: rgba(0, 0, 0, 1) 4px 8px 8px;
+
+}
+
+button:hover {
+
+    filter: brightness(120%);
+    transform: scale(1.1);
+  }
+
+.pbtn {
+
+    background-image: url(Calculator.png);
+    width: 300px;
+    height: 325px;
+    padding: 10px;
+    background-size: cover;
+} 
+
+.btn{
+    background-image: url(TaskList.png);
+    width: 300px;
+    height: 325px;
+    padding: 10px;
+    background-size: cover;
+}
+
+.navbar {
+    background-color: #171717; 
+    padding: 30px;  
+
+  }
+  
+  .navbar-links {
+    list-style-type: none;  
+    margin: 0;
+    padding: 0;
+    display: flex;  
+    justify-content: center;  
+  }
+  
+  .navbar-links li {
+    margin: 15px;  
+  }
+  
+  .navbar-links a { 
+    text-decoration: none;
+    color: #848494;
+    font-size: 18px;  
+    padding: 25px;  
+    border-radius: 5px; 
+    transition: all 0.3s ease;
+  }
+  
+  .navbar-links a:hover {
+    background-color: #0062ff;
+    color: white;
+  }
+
+  
+  .footer {
+    background-color: #252525;
+    padding: 20px;
+
+    position: relative; 
+    bottom: 0;
+    text-align: center;
+  }
+  
+  .contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .contact-button {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.3s ease;
+  }
+  
+  .contact-button.linkedin {
+    background-color: #0077b5; 
+  }
+  
+  .contact-button.github {
+    background-color: #333; 
+  }
+  
+  .contact-button.instagram {
+    background-color: #e4405f; 
+  }
+  
+  .contact-button:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+  
