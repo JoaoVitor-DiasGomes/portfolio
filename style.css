@@ -168,9 +168,3 @@ button:hover {
     opacity: 0.8;
   }
   
-@media (max-width: 768px) {
-    .portfolio {
-      width: 100%;
-      padding: 10px;
-    }
-}
