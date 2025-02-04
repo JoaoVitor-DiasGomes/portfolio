@@ -167,5 +167,54 @@ button:hover {
     transform: scale(1.1);
     opacity: 0.8;
   }
-  
+
+  /* Código CSS atualizado para responsividade */
+@media (max-width: 768px) {
+  .navbar-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+  }
+
+  .navbar-links li {
+    margin: 10px 0;
+  }
+
+  .about, .experience, .abilities, .projects, .contact {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .cards button {
+    width: 80%;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-links a {
+    font-size: 12px;
+  }
+
+  .contact-button {
+    font-size: 12px;
+  }
+
+  .cards button {
+    font-size: 12px;
+  }
+
+  .pbtn, .btn {
+    width: 250px;
+    height: 250px;
+  }
+}
 
