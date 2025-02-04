@@ -169,31 +169,39 @@ button:hover {
   }
   
 @media (max-width: 768px) {
-    .container {
-        width: 100%;
-        padding: 10px;
-    }
-
-    p {
-        font-size: medium;
-        width: 100%;
-    }
-
-    .about, .experience, .abilities, .projects, .contacts {
-        gap: 5px;
-    }
-
     .navbar-links {
         flex-direction: column;
-        align-items: center;
     }
 
     .navbar-links li {
         margin: 5px 0;
     }
 
-    .pbtn, .btn {
-        width: 100%;
-        height: auto;
+    .about, .experience, .abilities, .projects, .contact {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards button {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-links a {
+        font-size: 14px;
+    }
+
+    .cards button {
+        font-size: 12px;
+    }
+
+    .contact-button {
+        font-size: 12px;
     }
 }
