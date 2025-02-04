@@ -176,13 +176,13 @@ button:hover {
     }
 
     .img {
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
     }
 
     .pbtn, .btn {
-        width: 250px;
-        height: 250px;
+        width: 350px;
+        height: 350px;
     }
 }
 
@@ -192,10 +192,10 @@ button:hover {
     }
 
     .cards button {
-        font-size: 12px;
+        font-size: 14px;
     }
 
     .contact-button {
-        font-size: 12px;
+        font-size: 14px;
     }
 }
